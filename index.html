@@ -304,6 +304,7 @@
       border-radius: 50%; background: var(--accent); transform: translateX(-5px);
       box-shadow: 0 0 10px var(--accent-soft);
     }
+    .timeline-dot.dim { background: var(--card); border: 1px solid var(--muted); box-shadow: none; }
     .timeline-year { font-size: .75rem; color: var(--accent); }
     .timeline-item h3 { font-family: 'Syne', sans-serif; font-size: 1.15rem; margin: .3rem 0; }
     .timeline-item .place { font-size: .8rem; color: var(--blue); margin-bottom: .4rem; }
@@ -458,7 +459,7 @@
           <p class="section-label reveal">// About</p>
           <h2 class="title reveal">I learn by building things that actually work.</h2>
           <p class="reveal">
-            I'm Keshav, a BCA student in Gaindakot. I started with C and Python to understand how programs think,
+            I'm Keshav, a BCA student in Gaindakot. I started with C and Python to understand how programmers think,
             then moved to the web, where I could see my code turn into something people can click.
           </p>
           <p class="reveal">
@@ -466,7 +467,7 @@
             so I know what the user should see and do at every step.
           </p>
           <p class="reveal">
-            I'm in my fifth semester, working through .NET, full-stack development, computer graphics and networking.
+            I'm in my sixth semester at Lumbini ICT Campus, learning mobile programming and advanced Java.
             I'm looking for projects and internships where I can keep learning by shipping real things.
           </p>
         </div>
@@ -480,14 +481,12 @@
 <pre><code><span class="kw">const</span> <span class="prop">keshav</span> = {
   <span class="prop">name</span>: <span class="str">"Keshav Rimal"</span>,
   <span class="prop">location</span>: <span class="str">"Gaindakot, Nepal"</span>,
-  <span class="prop">studying</span>: <span class="str">"BCA, 5th semester"</span>,
+  <span class="prop">studying</span>: <span class="str">"BCA, 6th semester"</span>,
   <span class="prop">builds</span>: [<span class="str">"PHP"</span>, <span class="str">"Laravel"</span>, <span class="str">"MySQL"</span>],
   <span class="prop">designsIn</span>: <span class="str">"Figma"</span>,
   <span class="prop">learning</span>: [
-    <span class="str">".NET"</span>,
-    <span class="str">"Full Stack"</span>,
-    <span class="str">"Computer Graphics"</span>,
-    <span class="str">"Networking"</span>,
+    <span class="str">"Mobile Programming"</span>,
+    <span class="str">"Advanced Java"</span>,
   ],
   <span class="prop">lookingFor</span>: <span class="str">"projects and internships"</span>,
 };<span class="caret" aria-hidden="true"></span></code></pre>
@@ -531,20 +530,26 @@
         <p class="section-label reveal">// Education</p>
         <h2 class="title reveal">My path</h2>
         <div class="timeline">
-          <!-- EDIT: change the campus name, years and description -->
           <div class="timeline-item reveal">
             <div class="timeline-dot"></div>
-            <div class="timeline-year">Present</div>
+            <div class="timeline-year">2080 B.S. &nbsp;·&nbsp; Present</div>
             <h3>Bachelor of Computer Applications (BCA)</h3>
-            <div class="place">Your Campus Name · Gaindakot, Nepal</div>
-            <p>Studying full-stack web development, databases, networking and computer graphics while building projects alongside coursework.</p>
+            <div class="place">Lumbini ICT Campus · Nawalparasi, Nepal</div>
+            <p>Pursuing BCA with a focus on full-stack development, data structures, databases, and software engineering. Building real-world projects like CarePoint Hospital and an Ecommerce store alongside coursework.</p>
           </div>
           <div class="timeline-item reveal">
             <div class="timeline-dot"></div>
-            <div class="timeline-year">Add your years</div>
-            <h3>+2 / Higher Secondary</h3>
-            <div class="place">Your School Name · Nepal</div>
-            <p>Add a line about your stream and what you learned there.</p>
+            <div class="timeline-year">2078 – 2080 B.S.</div>
+            <h3>Class 11 &amp; 12 — Management</h3>
+            <div class="place">Shining English Secondary School · Nawalparasi, Nepal</div>
+            <p>Completed higher secondary education in the Management stream, building analytical thinking and problem-solving skills before transitioning into tech.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot dim"></div>
+            <div class="timeline-year">2077 B.S. &nbsp;·&nbsp; 2021 A.D.</div>
+            <h3>SEE — Class 10</h3>
+            <div class="place">Shining English Secondary School · Nawalparasi, Nepal</div>
+            <p>Completed the Secondary Education Examination (SEE), marking the beginning of the academic journey.</p>
           </div>
         </div>
       </div>
